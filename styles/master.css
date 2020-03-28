@@ -1,0 +1,33 @@
+footer {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0em;
+  background-color: #556573;
+  color: #C5CED9;
+
+}
+
+
+nav {
+  position: fixed;
+  background-color: #556573;
+}
+
+
+body {
+  padding-top: 80px;
+  color: #556573 ;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+}
+
+
+.container {
+  background-color: white;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Anton', sans-serif;
+}
