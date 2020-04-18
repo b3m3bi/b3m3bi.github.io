@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Asesorías matemáticas - sesión 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
+      <a href="#" class="navbar-brand">Asesorías Matemáticas</a>
+      <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" arial-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link disabled" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sesiones
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item disabled" href="#">Sesión 1</a>
+              <a class="dropdown-item disabled" href="#">Sesión 2</a>
+              <a class="dropdown-item disabled" href="#">Sesión 3</a>
+              <a class="dropdown-item" href="./sesion4.html">Sesion 4</a>
+              <a class="dropdown-item" href="#">Sesion 5</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <main>
+
+
+        <h2  class="">Sesión 5</h2>
+        <h3>Productos notables y factorización</h3>
+
+        <hr>
+
+        <img src="https://media.giphy.com/media/TgKEjjz1lzjmEsuz80/giphy.gif" alt="Feliz">
+
+        <br>
+        <br>
+
+
+        <p>En esta sesión vamos a repasar dos temas que seguro vendrán en tu examen: los productos notables y la factorización.</p>
+
+        <div class="alert alert-danger">
+          <p><b>Instrucciones:</b></p>
+
+
+          <p>Lee todo el contenido de esta página. Tienes que ver los videos en el orden en el que se indican y además debes copiar en tu cuaderno (en la sección que dejaste para matemáticas) todo lo que está dentro de las cajas grises con la siguiente leyenda: </p>
+
+          <div class="alert alert-secondary copiar">
+            <div class="row mb-3 mx-auto">
+              <p class="text-center"><i class="fas fa-pencil-alt"></i> Copiar en cuaderno</p>
+            </div>
+            <p>Bla bla bla... Tienes que copiarme en tu cuaderno... bla bla bla...</p>
+          </div>
+
+          <p> Tienes que ver los videos obligatorioamente ya que ahí es donde se explican los temas, si solo copias lo que te pido es posible que no entiendas. </p>
+        </div>
+
+        <div class="alert alert-warning">
+          <p>
+            Antes de comenzar esta sesión repasa tus apuntes de las clases pasadas. Debes de tener claros los siguientes temas que ya repsamos:
+          </p>
+          <ul>
+
+            <li>suma y resta de polinomios</li>
+            <li>multiplicación de polinomios</li>
+          </ul>
+        </div>
+
+        <hr>
+
+        <h3>Productos notables</h3>
+
+        <p>Recurda que en la multiplicación de polinomios tienes que multiplicar cada uno de los términos de un polinomio por cada uno de los términos del otro polinomio como en el siguiente ejemplo:</p>
+        <img src="../img/multiplicacion-poli.png" alt="Ejemplo de multiplicación de polinomios" class="" style="width:600px">
+        <p>Esto puede hacer que la multiplicación de polinomios sea muy tardada... Sin embargo, existen casos particulares en los que el resultado de la multiplicación de polinomios sigue siempre un mismo partón por lo que en lugar de resolver la multiplicación paso por paso podemos solo aplicar una regla y ya. ¡Yey! Estos casos particulares se conocen como <strong>productos notables</strong>. Para aprender más de ellos ve el siguiente video:</p>
+
+        <div class="embed-responsive embed-responsive-16by9 mb-3">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/I1L8F3o93q0" allowfullscreen></iframe>
+        </div>
+
+        <p>Ahora copia en tu cuaderno lo siguiente que resume lo que acabas de ver en el video.</p>
+
+
+
+        <div class="alert alert-secondary copiar">
+          <div class="row mb-3 mx-auto">
+            <p class="text-center"><i class="fas fa-pencil-alt"></i> Copiar en cuaderno</p>
+          </div>
+
+          <h5><strong> Productos notables</strong></h5>
+
+          <p>Los <strong>productos notables</strong> son aquellos productos de algunos polinomios que como siempre cumplen cierto partrón fijo se pueden resolver aplicando ciertas reglas.</p>
+
+          <table class="table table-hover table-stripped bg-white">
+            <thead class="thead-dark">
+              <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Producto notable</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td> Binomio al cuadrado </td>
+                <td> \( (a+b)^{2}=a^{2}+2ab+b^{2} \) </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td> Binomio conjudado </td>
+                <td> \( (a+b)(a-b) = a^{2}-b^{2} \) </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td> Binomio con término común </td>
+                <td> \( (x+a)(x+b)=x^{2}+(a+b)x+ab \)</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td> Binomios al cubo </td>
+                <td> \( (a+b)^{3}=a^{3}+3a^{2}b+3ab^{2}+b^{3} \) </td>
+              </tr>
+            </tbody>
+
+          </table>
+
+        </div>
+
+        <div class="alert alert-info">
+          <p><b>Recodatorio:</b></p>
+          <p>Como se explica en el video, no es necesario que te aprendas las reglas de los productos notables de memoria. Si sabes multiplicar polinomios puedes resolver cualquier ejercicio de productos notables. Así que asegurate de saber muy bien como multiplicar polinomios. Sin embargo, los productos notables nos van a servir mucho para factorizar.</p>
+        </div>
+
+        <p>Recuerda muy bien nunca equivocarte con los binomios al cuadrado:</p>
+
+        <img src="../img/meme-productos-notables.jpg" alt="Meme porductos notables" class="" style="width:600px">
+        <img src="../img/meme-productos-notables-2.jpg" alt="Meme porductos notables" class="">
+
+
+        <hr>
+
+        <h3>Factorización</h3>
+
+        <p>Nota que cuando resolvemos una multiplicación de polinomios o cuando resolvemos porductos notables empezamos con dos o más monomios o polinomios que se multiplican y terminamos con una suma de términos.</p>
+        <img src="../img/explicacion-multip-poli.png" alt="Explicación de la multiplicación de polinomios" class="imagen">
+        <p>El proceso contrario a la multipliación de polinomios, es decir, cuando empezamos con una suma de términos algebraicos y terminamos con una multiplicación de polinomios, se conoce como <strong>factorización</strong>. </p>
+        <img src="../img/explicacion-factorizacion.png" alt="Explicación de la multiplicación de polinomios" class="imagen">
+
+        <p>Existen muchos métodos para factorizar en los siguientes videos aprenderemos sobre algunos de los más importantes.</p>
+
+        <p>El primero es por <b>factor común</b>.</p>
+        <div class="embed-responsive embed-responsive-16by9 mb-3">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LWyZSXsMAr8" allowfullscreen></iframe>
+        </div>
+
+        <p>Los siguientes tres métodos están relacionados con los productos notables. Para resolverlos solo tienes que identificar los elementos de la expresión y rescribirlo como producto de acuerdo al producto notable que representan.</p>
+
+        <p>El primero de estos es la <b>factorización de una diferencia de cuadrados</b> y  corresponde al caso contrario de los binomios conjugados.</p>
+        <div class="embed-responsive embed-responsive-16by9 mb-3">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tABhBMtBmSY" allowfullscreen></iframe>
+        </div>
+
+        <p>El segundo es la <b>factorización de los trinomios cuadrados perfectos</b> y corresponde al caso contrario de los binomios al cuadrado.</p>
+        <div class="embed-responsive embed-responsive-16by9 mb-3">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1dvGz8vQCeU" allowfullscreen></iframe>
+        </div>
+
+        <p>Finalmente, el tercero es la <b>factorización de los trinomios de la forma \( x^{2}+bx+c \)</b> y corresponde al caso contrario de los binomios con término común.</p>
+        <div class="embed-responsive embed-responsive-16by9 mb-3">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TZcUxb1gnDk" allowfullscreen></iframe>
+        </div>
+
+
+        <div class="alert alert-secondary copiar">
+
+          <div class="row mb-3 mx-auto">
+            <p class="text-center"><i class="fas fa-pencil-alt"></i> Copiar en cuaderno</p>
+          </div>
+
+          <h5><strong> Factorización</strong></h5>
+
+          <p>La <strong>factorización</strong> es el porceso algebraico en el que transformamos una suma de términos algebraicos en un producto de monomios y/o polinomios.</p>
+
+          <p>Existen varios métodos de factorización:</p>
+
+
+          <ol>
+            <li>
+              <h6> <b> Factor común </b> </h6>
+              <p>Se identifica la literal o literales que comparten todos los términos y se identifica el máximo común divisor (MCD) de los coeficientes.</p>
+            </li>
+            <li>
+              <h6> <b> Diferencia de cuadrados </b> </h6>
+              <p> Tiene la forma \( a^{2} - b^{2} \) y su factorización es el producto de binomios conjugados: \( a^{2}+b^{2} = (a+b)(a-b) \).</p>
+            </li>
+            <li>
+              <h6> <b> Trinomio cuadrado perfecto </b> </h6>
+              <p> Tiene la forma \( a^{2}+2ab+b^{2} \) y su factorización es el producto de binomios al cuadrado: \( a^{2}+2ab+b^{2} = (a+b)^{2} \).</p>
+            </li>
+            <li>
+              <h6> <b> Trinomio de la forma \( x^{2}+cx+d \) </b> </h6>
+              <p> Tiene la forma  \( x^{2}+cx+d \) y su factorización es el producto de binomios con término común: \( x^{2}+cx+ab = (x+a)(x+b) \), donde \( c = a+b \) y \( d = ab \) .</p>
+            </li>
+          </ol>
+        </div>
+
+        <div class="alert alert-warning">
+          Para complementar lo que viste en esta sesión <strong>revisa tu Guía</strong>. Los temas que debes revisar están en las páginas 107 a 113.
+        </div>
+
+
+        <hr>
+
+        <p>Ya terminaste, eso fue todo por esta sesión. Yupi. Vamos a resolver ejercicios.</p>
+
+
+        <div class="alert alert-danger">
+            <p><b>Instrucciones:</b> </p>
+            <p>Regresa a <i>Google Classroom</i> y contesta los ejercicios de esta sesión. Y entrega lo que se pide. Puedes poner <a href="https://www.youtube.com/watch?v=t6FUR_nhGX8">esta canción</a> mientras haces tus ejericios.</p>
+        </div>
+
+        <img src="../img/particio-meme.png" alt="Entendiste wii">
+
+        <img src="https://media.giphy.com/media/izyRTIOzU07dtJF2u7/giphy.gif" alt="meh!">
+        <br>
+        <br>
+
+      </main>
+
+    </div>
+
+    <footer class="text-center p-5">
+      Curso los Contreras COMIPEMS
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a315b59eed.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  </body>
+</html>
